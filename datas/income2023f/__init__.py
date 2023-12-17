@@ -95,4 +95,20 @@ def preprocess(df):
 train_preprocessed = preprocess(train)
 test_preprocessed = preprocess(test)
 
-
+# me = pd.DataFrame(
+#     {'age': 21,
+#      'workclass':'Without-pay',
+#      'fnlwgt':,
+#      'education':'Some-college',
+#      'education.num':10
+#      'marital.status':'Never-married',
+#      'occupation':'Tech-support',
+#      'relationship':'Unmarried',
+#      'race':'White',
+#      'sex':'Male',
+#      'capital.gain':0,
+#      'capital.loss':30000,
+#      'hours.per.week':80,
+#      'native.country': 'United-States'
+#     }
+# )
